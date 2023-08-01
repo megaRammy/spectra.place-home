@@ -44,6 +44,7 @@ div {
     float: left;
     margin: 1em;
     padding: 1em;
+    text-align: right;
 }
 
 .links {
@@ -86,10 +87,6 @@ color: var(--accent-dark-pink);
     object-fit: contain;
 }
 
-h1.title {
-    text-align: center;
-}
-
 @media screen and (max-width: 600px) {
     .contentliquid {
         flex-direction: column;
@@ -103,5 +100,6 @@ h1.title {
         margin-top: 0em;
         padding-top: 0em;
         width: 100%;
+        text-align: center;
     }
    }
