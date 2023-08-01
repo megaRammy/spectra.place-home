@@ -87,9 +87,12 @@ color: var(--accent-dark-pink);
     object-fit: contain;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .contentliquid {
         flex-direction: column;
+    }
+    body {
+        font-size: 300%!important;
     }
     .logo {
         width: 100%;
