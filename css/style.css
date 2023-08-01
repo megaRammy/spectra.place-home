@@ -1,0 +1,67 @@
+:root{
+    --text-white:#F0F0F0;
+    --background-dark:#444444;
+    --accent-pink:#ffabf8;
+    --accent-dark-pink:#ec9ce4;
+    --comfy-padding:24px;
+}
+
+body {
+    font-family: "Lucida Sans", sans-serif;
+    color: var(--text-white);
+    text-decoration: none solid var(--background-dark);
+    text-align: center;
+    background-color: var(--background-dark);
+    font-size: clamp(16px, 1.0vw, 69px);
+    line-height: 1.6;
+}
+
+.link-image {
+    height: 1.4em;
+    vertical-align: middle;
+    padding-right: 0.5em;
+}
+
+.link-emoji {
+    font-size: 1.5em;
+    vertical-align: tex;
+    padding-right: 0.2em;
+    text-decoration: none;
+}
+
+h2 {
+
+}
+
+a {
+    color: var(--accent-pink);
+    text-decoration: none;
+}
+
+a:hover {
+color: var(--accent-dark-pink);
+}
+
+.link-emoji {
+   
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    padding: var(--comfy-padding);
+  }
+
+.logo {
+        display: block;
+        margin-top: var(--comfy-padding);
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 8px;
+        object-fit: contain;
+}
+
+h1.title {
+    text-align: center;
+}
