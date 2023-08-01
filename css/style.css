@@ -12,8 +12,44 @@ body {
     text-decoration: none solid var(--background-dark);
     text-align: center;
     background-color: var(--background-dark);
-    font-size: clamp(16px, 1.0vw, 69px);
+    font-size: clamp(16px, 0.8vw, 69px);
     line-height: 1.6;
+}
+
+div {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100%;
+    min-width: 150px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.contentliquid {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.intro {
+    width: 50%;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+}
+
+.links {
+    height: auto;
+    width: 100%;
+    clear: both;
 }
 
 .link-image {
@@ -42,26 +78,30 @@ a:hover {
 color: var(--accent-dark-pink);
 }
 
-.link-emoji {
-   
-}
-
-.content {
-    max-width: 1000px;
-    margin: auto;
-    padding: var(--comfy-padding);
-  }
-
-.logo {
-        display: block;
-        margin-top: var(--comfy-padding);
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        border-radius: 8px;
-        object-fit: contain;
+.logo-image {
+    float: left;
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: contain;
 }
 
 h1.title {
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .contentliquid {
+        flex-direction: column;
+    }
+    .logo {
+        width: 100%;
+        margin-bottom: 0em;
+        padding-bottom: 0em;
+    }
+    .intro {
+        margin-top: 0em;
+        padding-top: 0em;
+        width: 100%;
+    }
+   }
