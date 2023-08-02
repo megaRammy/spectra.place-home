@@ -14,6 +14,7 @@ body {
     background-color: var(--background-dark);
     font-size: clamp(16px, 0.8vw, 69px);
     line-height: 1.6;
+    font-size-adjust: none;
 }
 
 div {
