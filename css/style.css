@@ -93,7 +93,7 @@ color: var(--accent-dark-pink);
         flex-direction: column;
     }
     body {
-        font-size: 250%!important;
+   /*    font-size: 250%!important;*/
     }
     .logo {
         max-width: 100%;
