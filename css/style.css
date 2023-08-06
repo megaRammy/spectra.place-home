@@ -1,11 +1,11 @@
 :root{
 
-    --text: hsl(305, 100%, 95%);
+    --text: #ffe5fd;
     --background: hsl(185, 96%, 10%);
     --primary: #ffadf8;
     --secondary: hsl(182, 100%, 7%);
     --accent: #15e1f4;
-    --highlight-background: hsl(185, 91%, 32%);
+    --highlight-background: #078f9c;
     --highlight-text: #ffe5fd;
     --comfy-padding:24px;
 
