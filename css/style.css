@@ -1,8 +1,14 @@
 :root{
-    --text-white:#F0F0F0;
-    --background-dark:#444444;
+    --text-white:#f7f7f7;
+    --background-dark:#012e32;
     --accent-pink:#ffabf8;
-    --accent-dark-pink:#ec9ce4;
+    --accent-dark-pink:#15e1f4;
+
+    --text: #f7f7f7;
+    --background: #0d0d0d;
+    --primary: #ffabf8;
+    --secondary: #012e32;
+    --accent: #15e1f4;
     --comfy-padding:24px;
 }
 
