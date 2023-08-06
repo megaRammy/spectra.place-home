@@ -1,23 +1,21 @@
 :root{
-    --text-white:#f7f7f7;
-    --background-dark:#012e32;
-    --accent-pink:#ffabf8;
-    --accent-dark-pink:#15e1f4;
 
     --text: #f7f7f7;
-    --background: #0d0d0d;
+    --background: #012e32;
     --primary: #ffabf8;
-    --secondary: #012e32;
+    --secondary: #002324;
     --accent: #15e1f4;
+    --highlight-background: hsl(185, 91%, 32%);
+    --highlight-text: #f7f7f7;
     --comfy-padding:24px;
 }
 
 body {
     font-family: "Lucida Sans", sans-serif;
-    color: var(--text-white);
-    text-decoration: none solid var(--background-dark);
+    color: var(--text);
+    text-decoration: none solid var(--background);
     text-align: center;
-    background-color: var(--background-dark);
+    background-color: var(--background);
     font-size: clamp(16px, 0.8vw, 69px);
     line-height: 1.6;
     font-size-adjust: none;
@@ -79,12 +77,12 @@ h2 {
 }
 
 a {
-    color: var(--accent-pink);
+    color: var(--primary);
     text-decoration: none;
 }
 
 a:hover {
-color: var(--accent-dark-pink);
+color: var(--accent);
 }
 
 .logo-image {
@@ -115,3 +113,12 @@ color: var(--accent-dark-pink);
         text-align: center;
     }
    }
+
+::selection {
+    color: var(--highlight-text);
+    background: var(--highlight-background); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    color: var(--highlight-text);
+    background: var(--highlight-background); /* Gecko Browsers */
+}
